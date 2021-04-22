@@ -34,3 +34,7 @@ if (tag == "racing" || tag == "home"){
 if (tag == "minigames" || tag == "home"){
     document.write('<li><a href="https://supertux.party/" target="_blank">SuperTuxParty</a> - Minigames to play with friends on a virtual board like Mario Party</li>');
 }
+
+if (tag == "strategy" || tag == "home"){
+    document.write('<li><a href="https://store.steampowered.com/app/1536610/OpenTTD/" target="_blank">OpenTTD</a> - simulation game based upon Transport Tycoon Deluxe</li>');
+}
