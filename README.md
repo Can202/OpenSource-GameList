@@ -5,7 +5,7 @@ Webpage:
 
 https://can202.github.io/OpenSource-GameList/
 
-# do you wanna put a game in this list (maybe your game or another)?
+# do you wanna put a game on this list (maybe your game or another)?
 
 2 options:
 
