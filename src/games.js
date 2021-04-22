@@ -22,3 +22,15 @@ if (tag == "sandbox" || tag == "simulation" || tag == "home"){
 if (tag == "simulation" || tag == "home"){
     document.write('<li><a href="https://www.flightgear.org/" target="_blank">FlightGear</a> - a sophisticated and professional Flight Simulator</li>');
 }
+
+if (tag == "plataformer" || tag == "home"){
+    document.write('<li><a href="https://www.supertux.org/" target="_blank">SuperTux</a> - 2D jump and run sidescroller game in a style similar to the original Super Mario games</li>');
+}
+
+if (tag == "racing" || tag == "home"){
+    document.write('<li><a href="https://supertuxkart.net/" target="_blank">SuperTuxKart</a> - 3D arcade racer with a variety characters, tracks, and modes to play</li>');
+}
+
+if (tag == "minigames" || tag == "home"){
+    document.write('<li><a href="https://supertux.party/" target="_blank">SuperTuxParty</a> - Minigames to play with friends on a virtual board like Mario Party</li>');
+}
