@@ -9,5 +9,8 @@ https://can202.github.io/OpenSource-GameList/
 
 2 options:
 
-1. send a Issue with the page or repository of the game
+1. send a Issue with the page or repository of the game, a little description and obviously the name
+
+or
+
 2. send a pull request with the modification
