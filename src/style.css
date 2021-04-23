@@ -30,6 +30,14 @@ nav {
     text-align: center;
     position: relative;
 }
+nav a{
+    color: darkgreen;
+    text-decoration:none;
+}
+nav a:hover{
+    text-decoration:overline;
+
+}
 article {
     position: relative;
 }
