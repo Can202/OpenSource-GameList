@@ -139,3 +139,12 @@ if (tag == "simulation" || tag == "home"){
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('</li>');
 }
+
+if (tag == "minigames" || tag == "home"){
+    document.write('<li><a href="https://gcompris.net/" target="_blank">GCompris</a> - conjunto de programas educativos de alta calidad que contiene un gran número de actividades para niños entre 2 y 10 años');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
