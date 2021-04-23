@@ -20,6 +20,12 @@ header {
 
 }
 nav {
+    padding-left: 10%;
+    margin-left: -10%;
+    padding-right: 10%;
+    margin-right: -10%;
+    background-color: #98fac1;
+    text-align: center;
     position: relative;
 }
 article {
