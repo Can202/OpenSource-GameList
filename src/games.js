@@ -85,7 +85,7 @@ if (tag == "strategy" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<a href="https://play.google.com/store/apps/details?id=org.openttd.sdl&hl=en_US&gl=US" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" />android here</a>'); //android
+    document.write('<a href="https://play.google.com/store/apps/details?id=org.openttd.sdl&hl=en_US&gl=US" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:smaller;">android here</font></a>'); //android
     document.write('</li>');
 }
 
