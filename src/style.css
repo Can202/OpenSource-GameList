@@ -23,7 +23,7 @@ article {
 
 footer {
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #67C78F;
     position: fixed;
     bottom: 0;
@@ -31,6 +31,7 @@ footer {
     margin-left: -10%;
 }
 footer p{
+    text-align: center;
     font-size: smaller;
     
 }
