@@ -12,6 +12,14 @@ header {
     margin-left: -10%;
 
 }
+nav {
+    position: relative;
+    top: 90px;
+}
+article {
+    position: relative;
+    top: 100px;
+}
 
 footer {
     width: 100%;
