@@ -38,3 +38,7 @@ if (tag == "minigames" || tag == "home"){
 if (tag == "strategy" || tag == "home"){
     document.write('<li><a href="https://store.steampowered.com/app/1536610/OpenTTD/" target="_blank">OpenTTD</a> - simulation game based upon Transport Tycoon Deluxe</li>');
 }
+
+if (tag == "shooter" || tag == "home"){
+    document.write('<li><a href="https://www.urbanterror.info/home/" target="_blank">Urban Terror</a> - free multiplayer first person shooter</li>');
+}
