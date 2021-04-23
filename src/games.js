@@ -106,3 +106,12 @@ if (tag == "shooter" || tag == "home"){
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('</li>');
 }
+
+if (tag == "shooter" || tag == "home"){
+    document.write('<li><a href="http://www.openarena.ws/download.php" target="_blank">OpenArena</a> - deathmatch first person shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<a href="https://play.google.com/store/apps/details?id=ws.openarena.sdl" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:smaller;">android here</font></a>'); //android
+    document.write('</li>');
+}
