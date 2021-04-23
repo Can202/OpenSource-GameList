@@ -131,7 +131,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "simulator" || tag == "home"){
+if (tag == "simulation" || tag == "home"){
     document.write('<li><a href="https://www.libre-trainsim.de/home" target="_blank">Libre TrainSim</a> - a Train Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
