@@ -176,4 +176,40 @@ if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "casual" || tag == "home"){
+    document.write('<li><a href="https://neverball.org/screenshots.php" target="_blank">Neverball</a> -  Tilt the floor to roll a ball through an obstacle course before time runs out');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
+
+if (tag == "casual" || tag == "home"){
+    document.write('<li><a href="http://uppgarn.com/nuncabola/" target="_blank">Nuncabola</a> -  Neverball but rewritten with Java');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
+
+if (tag == "racing" || tag == "casual" || tag == "home"){
+    document.write('<li><a href="https://codeberg.org/Captain4LK/what_the_road_brings/releases" target="_blank">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
+
+if (tag == "simulation" || tag == "racing" || tag == "home"){
+    document.write('<li><a href="http://torcs.sourceforge.net/" target="_blank">TORCS</a> -  Realistic Racing Car Simulator');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
+
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
