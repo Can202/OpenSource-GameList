@@ -156,4 +156,6 @@ if (tag == "rhythm" || tag == "android" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('</li>');
+
+document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
 }
