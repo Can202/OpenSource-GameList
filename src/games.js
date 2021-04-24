@@ -140,8 +140,17 @@ if (tag == "simulation" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "minigames" || tag == "home"){
-    document.write('<li><a href="https://gcompris.net/" target="_blank">GCompris</a> - conjunto de programas educativos de alta calidad que contiene un gran número de actividades para niños entre 2 y 10 años');
+if (tag == "minigames" || tag == "android" || tag == "home"){
+    document.write('<li><a href="https://gcompris.net/" target="_blank">GCompris</a> - set of high-quality educational programs containing a large number of activities for children between the ages of 2 and 10');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
+
+if (tag == "rhythm" || tag == "android" || tag == "home"){
+    document.write('<li><a href="https://itdelatrisu.github.io/opsu/" target="_blank">opsu!</a> - unofficial open-source client for the rhythm game osu!, made in Java');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
