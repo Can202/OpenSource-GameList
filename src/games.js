@@ -5,6 +5,7 @@ if (tag == "sandbox" || tag == "local_multiplayer" || tag == "online_multiplayer
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - sandbox, local_multiplayer, online_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -14,6 +15,7 @@ if (tag == "rhythm" || tag == "on_device_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rhythm, on_device_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -23,6 +25,7 @@ if (tag == "rhythm" || tag == "online_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rhythm, online_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -32,12 +35,14 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
     document.write('</li>');
 }
 
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
     document.write('<li><a href="https://can202.github.io/arar/" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -47,6 +52,7 @@ if (tag == "sandbox" || tag == "simulation" || tag == "online_multiplayer" || ta
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - sandbox, simulation, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -56,6 +62,7 @@ if (tag == "simulation" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - simulation</font>');
     document.write('</li>');
 }
 
@@ -65,6 +72,7 @@ if (tag == "plataformer" || tag == "android" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - plataformer, android</font>');
     document.write('</li>');
 }
 
@@ -74,6 +82,7 @@ if (tag == "racing" || tag == "on_device_multiplayer" || tag == "online_multipla
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - racing, on_device_multiplayer, online_multiplayer, local_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -83,6 +92,7 @@ if (tag == "minigames" || tag == "on_device_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - minigames, on_device_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -91,7 +101,8 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplaye
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<a href="https://play.google.com/store/apps/details?id=org.openttd.sdl&hl=en_US&gl=US" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:smaller;">android here</font></a>'); //android
+    document.write('<a href="https://play.google.com/store/apps/details?id=org.openttd.sdl&hl=en_US&gl=US" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer, local_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -101,6 +112,7 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -110,6 +122,7 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -118,7 +131,8 @@ if (tag == "shooter" || tag == "local_multiplayer" || tag == "android" || tag ==
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<a href="https://play.google.com/store/apps/details?id=ws.openarena.sdl" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:smaller;">android here</font></a>'); //android
+    document.write('<a href="https://play.google.com/store/apps/details?id=ws.openarena.sdl" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<font style="font-size:10px;"> - shooter, local_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -128,6 +142,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -137,6 +152,7 @@ if (tag == "simulation" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - simulation</font>');
     document.write('</li>');
 }
 
@@ -146,6 +162,7 @@ if (tag == "minigames" || tag == "android" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - minigames, android</font>');
     document.write('</li>');
 }
 
@@ -155,6 +172,7 @@ if (tag == "rhythm" || tag == "android" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rhythm, android</font>');
     document.write('</li>');
 }
 
@@ -164,6 +182,7 @@ if (tag == "plataformer" || tag == "casual" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - plataformer, casual</font>');
     document.write('</li>');
 }
 
@@ -173,6 +192,7 @@ if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - sandbox, online_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -182,6 +202,7 @@ if (tag == "casual" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual</font>');
     document.write('</li>');
 }
 
@@ -191,6 +212,7 @@ if (tag == "casual" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual</font>');
     document.write('</li>');
 }
 
@@ -200,6 +222,7 @@ if (tag == "racing" || tag == "casual" || tag == "home"){
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, racing</font>');
     document.write('</li>');
 }
 
@@ -209,6 +232,17 @@ if (tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - simulation, racing</font>');
+    document.write('</li>');
+}
+
+if (tag == "casual" || tag == "on_device_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://github.com/Rapiz1/DungeonRush" target="_blank">DungeonRush</a> - Casual game inspired by Snake');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
