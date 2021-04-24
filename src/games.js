@@ -246,13 +246,13 @@ if (tag == "casual" || tag == "on_device_multiplayer" || tag == "local_multiplay
     document.write('</li>');
 }
 
-if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
+if (tag == "strategy" || tag == "online_multiplayer" || tag == "android" || tag == "home"){
     document.write('<li><a href="https://yairm210.itch.io/unciv" target="_blank">Unciv</a> - Build your civilization, research technologies, expand your cities and defeat your foes');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer, android</font>');
     document.write('</li>');
 }
 
