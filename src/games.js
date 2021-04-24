@@ -162,6 +162,15 @@ if (tag == "plataformer" || tag == "casual" || tag == "home"){
     document.write('<li><a href="https://opensurge2d.org/" target="_blank">Open Surge</a> - 2D retro platformer inspired by Sonic games and a game creation system');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('</li>');
+}
+
+if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://www.openclonk.org/" target="_blank">OpenClonk</a> - free multiplayer action game. The game is mainly about mining, settling and fast-paced melees, also is a 2D Game Engine');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('</li>');
