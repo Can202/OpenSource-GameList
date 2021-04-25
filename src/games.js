@@ -117,7 +117,7 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
 }
 
 if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
-    document.write('<li><a href="https://www.urbanterror.info/home/" target="_blank">Urban Terror</a> - free multiplayer first person shooter');
+    document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
@@ -127,7 +127,7 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer
 }
 
 if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
-    document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter');
+    document.write('<li><a href="https://www.urbanterror.info/home/" target="_blank">Urban Terror</a> - free multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
@@ -275,6 +275,17 @@ if (tag == "shooter" || tag == "casual" || tag == "android" ||tag == "home"){
     document.write('<font style="font-size:10px;"> - shooter, online_multiplayer</font>');
     document.write('</li>');
 }
+
+if (tag == "shooter" || tag == "online_multiplayer" ||  tag == "sandbox" || tag == "home"){
+    document.write('<li><a href="https://openspades.yvt.jp/" target="_blank">OpenSpades</a> - Voxel First person shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, sandbox</font>');
+    document.write('</li>');
+}
+
 
 
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
