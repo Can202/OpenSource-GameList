@@ -3,5 +3,5 @@ document.write(''+
 '<p>I decide if I put it, or not (can be your game or any game, if it is Open Source) - '+
 '<a href="https://github.com/Can202/OpenSource-GameList" target="_blank">Repository</a> - '+
 '<a href="https://github.com/Can202" target="_blank">Can202(me)</a></p>'+
-'<p>If you want to be an administrator (open source games finder), contact me</p>'
+'<p>If you want to be an administrator (open source games finder), fork it and send me</p>'
 );
