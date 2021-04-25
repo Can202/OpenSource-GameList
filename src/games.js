@@ -106,6 +106,16 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplaye
     document.write('</li>');
 }
 
+if (tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://store.steampowered.com/app/967460/Red_Eclipse_2/" target="_blank">Red Eclipse 2</a> - fast paced, agile, easily accessible first person shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer</font>');
+    document.write('</li>');
+}
+
 if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://www.urbanterror.info/home/" target="_blank">Urban Terror</a> - free multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
@@ -255,5 +265,16 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "android" || tag 
     document.write('<font style="font-size:10px;"> - strategy, online_multiplayer, android</font>');
     document.write('</li>');
 }
+
+if (tag == "shooter" || tag == "casual" || tag == "android" ||tag == "home"){
+    document.write('<li><a href="https://freedoom.github.io/" target="_blank">Freedoom</a> - Doom but open source, need <a href="https://zdoom.org/downloads" target="_blank">this</a>');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer</font>');
+    document.write('</li>');
+}
+
 
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
