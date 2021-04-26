@@ -166,7 +166,7 @@ if (tag == "simulation" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "minigames" || tag == "android" || tag == "home"){
+if (tag == "minigames" || tag == "education" || tag == "android" || tag == "home"){
     document.write('<li><a href="https://gcompris.net/" target="_blank">GCompris</a> - set of high-quality educational programs containing a large number of activities for children between the ages of 2 and 10');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
@@ -283,6 +283,16 @@ if (tag == "shooter" || tag == "online_multiplayer" ||  tag == "sandbox" || tag 
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
     document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, sandbox</font>');
+    document.write('</li>');
+}
+
+if (tag == "minigames" || tag == "education" || tag == "casual"  || tag == "strategy" || tag == "home"){
+    document.write('<li><a href="http://devel.schroetersa.ch/blupi.org/planet.html" target="_blank">Planet Blupi</a> - strategy and adventure game to kids');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - minigames, education, casual, strategy</font>');
     document.write('</li>');
 }
 

@@ -31,4 +31,6 @@ document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/racing">racing</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/minigames">minigames</a>');
+document.write(' - ');
+document.write('<a href="/OpenSource-GameList/tag/education">education</a>');
 document.write('</p>');
