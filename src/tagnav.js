@@ -12,13 +12,15 @@ document.write('<a href="/OpenSource-GameList/tag/local_multiplayer">local multi
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/on_device_multiplayer">multiplayer on a device</a>');
 document.write(' - ');
+document.write('<a href="/OpenSource-GameList/tag/rpg">rpg</a>');
+document.write(' - ');
+document.write('<a href="/OpenSource-GameList/tag/shooter">shooter</a>');
+document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/sandbox/">sandbox</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/rhythm">rhythm</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/strategy">strategy</a>');
-document.write(' - ');
-document.write('<a href="/OpenSource-GameList/tag/shooter">shooter</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/simulation">simulation</a>');
 document.write(' - ');
