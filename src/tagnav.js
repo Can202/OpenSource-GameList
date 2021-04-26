@@ -26,6 +26,8 @@ document.write('<a href="/OpenSource-GameList/tag/strategy">strategy</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/simulation">simulation</a>');
 document.write(' - ');
+document.write('<a href="/OpenSource-GameList/tag/puzzle">puzzle</a>');
+document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/plataformer">plataformer</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/racing">racing</a>');

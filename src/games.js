@@ -206,23 +206,23 @@ if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "casual" || tag == "home"){
+if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     document.write('<li><a href="https://neverball.org/screenshots.php" target="_blank">Neverball</a> -  Tilt the floor to roll a ball through an obstacle course before time runs out');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - casual</font>');
+    document.write('<font style="font-size:10px;"> - casual, puzzle</font>');
     document.write('</li>');
 }
 
-if (tag == "casual" || tag == "home"){
+if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     document.write('<li><a href="http://uppgarn.com/nuncabola/" target="_blank">Nuncabola</a> -  Neverball but rewritten with Java');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - casual</font>');
+    document.write('<font style="font-size:10px;"> - casual, puzzle</font>');
     document.write('</li>');
 }
 
@@ -286,16 +286,26 @@ if (tag == "shooter" || tag == "online_multiplayer" ||  tag == "sandbox" || tag 
     document.write('</li>');
 }
 
-if (tag == "minigames" || tag == "education" || tag == "casual"  || tag == "strategy" || tag == "home"){
+if (tag == "minigames" || tag == "education" || tag == "puzzle" || tag == "casual"  || tag == "strategy" || tag == "home"){
     document.write('<li><a href="http://devel.schroetersa.ch/blupi.org/planet.html" target="_blank">Planet Blupi</a> - strategy and adventure game to kids');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - minigames, education, casual, strategy</font>');
+    document.write('<font style="font-size:10px;"> - minigames, education, puzzle, casual, strategy</font>');
     document.write('</li>');
 }
 
+
+if (tag == "puzzle" || tag == "casual"  || tag == "android" || tag == "home"){
+    document.write('<li><a href="https://play.google.com/store/apps/details?id=com.hyperparticle.nodulus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Nodulus</a> - casual puzzle game for android and ios');
+    //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - puzzle, casual, android</font>');
+    document.write('</li>');
+}
 
 
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
