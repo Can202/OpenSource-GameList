@@ -156,7 +156,6 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 
-
 if (tag == "rpg" || tag == "strategy" || tag == "home"){
     document.write('<li><a href="https://github.com/ValyriaTear/ValyriaTear" target="_blank">Valyria Tear</a> - J-RPG (Based on the Hero of Allacrost engine) ');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
@@ -206,6 +205,17 @@ if (tag == "plataformer" || tag == "casual" || tag == "home"){
     document.write('<font style="font-size:10px;"> - plataformer, casual</font>');
     document.write('</li>');
 }
+
+if (tag == "strategy" || tag == "sandbox" || tag == "online_multiplayer" || tag == "local_multiplayer"  || tag == "android" || tag == "home"){
+    document.write('<li><a href="https://mindustrygame.github.io/" target="_blank">Mindustry</a> - sandbox tower-defense game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, sandbox, online_multiplayer, local_multiplayer, android</font>');
+    document.write('</li>');
+}
+
 
 if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     document.write('<li><a href="https://www.openclonk.org/" target="_blank">OpenClonk</a> - free multiplayer action game. The game is mainly about mining, settling and fast-paced melees, also is a 2D Game Engine');
@@ -317,6 +327,5 @@ if (tag == "puzzle" || tag == "casual"  || tag == "android" || tag == "home"){
     document.write('<font style="font-size:10px;"> - puzzle, casual, android</font>');
     document.write('</li>');
 }
-
 
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
