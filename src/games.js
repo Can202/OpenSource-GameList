@@ -156,6 +156,17 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 
+
+if (tag == "rpg" || tag == "strategy" || tag == "home"){
+    document.write('<li><a href="https://github.com/ValyriaTear/ValyriaTear" target="_blank">Valyria Tear</a> - J-RPG (Based on the Hero of Allacrost engine) ');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rpg, strategy</font>');
+    document.write('</li>');
+}
+
 if (tag == "simulation" || tag == "home"){
     document.write('<li><a href="https://www.libre-trainsim.de/home" target="_blank">Libre TrainSim</a> - a Train Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
