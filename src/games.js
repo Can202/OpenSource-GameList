@@ -368,7 +368,7 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag =
 }
 
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer"|| tag == "home"){
-    document.write('<li><a href="https://www.bzflag.org/" target="_blank">BZFlag</a> - multi-player 3D TANK battle game, weird but fun');
+    document.write('<li><a href="https://www.bzflag.org/" target="_blank">BZFlag</a> - (capture the flag)multi-player 3D tank battle game, weird but fun');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
