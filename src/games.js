@@ -278,6 +278,16 @@ if (tag == "racing" || tag == "casual" || tag == "home"){
 }
 
 if (tag == "simulation" || tag == "racing" || tag == "home"){
+    document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic Racing Car Simulator');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - simulation, racing</font>');
+    document.write('</li>');
+}
+
+if (tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('<li><a href="http://torcs.sourceforge.net/" target="_blank">TORCS</a> -  Realistic Racing Car Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
