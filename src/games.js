@@ -9,23 +9,23 @@ if (tag == "sandbox" || tag == "local_multiplayer" || tag == "online_multiplayer
     document.write('</li>');
 }
 
-if (tag == "rhythm" || tag == "on_device_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "rhythm" || tag == "on_device_multiplayer" || tag == "home"){
     document.write('<li><a href="https://www.stepmania.com/" target = "_blank">Stepmania</a> - dance and rhythm game like Dance Dance Revolution');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - rhythm, on_device_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, rhythm, on_device_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "rhythm" || tag == "online_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "rhythm" || tag == "online_multiplayer" || tag == "home"){
     document.write('<li><a href="https://store.steampowered.com/app/980610/Quaver/" target = "_blank">Quaver</a> - competitive rhythm game like Osu Mania');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - rhythm, online_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, rhythm, online_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -75,13 +75,13 @@ if (tag == "plataformer" || tag == "android" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "racing" || tag == "on_device_multiplayer" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
+if (tag == "action" || tag == "racing" || tag == "on_device_multiplayer" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     document.write('<li><a href="https://supertuxkart.net/" target="_blank">SuperTuxKart</a> - 3D arcade racer with a variety characters, tracks, and modes to play');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - racing, on_device_multiplayer, online_multiplayer, local_multiplayer, android</font>');
+    document.write('<font style="font-size:10px;"> - action, racing, on_device_multiplayer, online_multiplayer, local_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -105,63 +105,63 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplaye
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
     document.write('<li><a href="https://store.steampowered.com/app/967460/Red_Eclipse_2/" target="_blank">Red Eclipse 2</a> - fast paced, agile, easily accessible first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter like CS 1.6');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://xonotic.org/" target="_blank">Xonotic</a> - free and fast arena multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://unvanquished.net/" target="_blank">Unvanquished</a> - beautifull multiplayer first person shooter Alien vs Humans, attack or build');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://www.urbanterror.info/home/" target="_blank">Urban Terror</a> - free multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     document.write('<li><a href="http://www.openarena.ws/download.php" target="_blank">OpenArena</a> - deathmatch first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<a href="https://play.google.com/store/apps/details?id=ws.openarena.sdl" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
-    document.write('<font style="font-size:10px;"> - shooter, local_multiplayer, android</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, local_multiplayer, android</font>');
     document.write('</li>');
 }
 
@@ -216,23 +216,23 @@ if (tag == "minigames" || tag == "education" || tag == "android" || tag == "home
     document.write('</li>');
 }
 
-if (tag == "rhythm" || tag == "android" || tag == "home"){
+if (tag == "action" || tag == "rhythm" || tag == "android" || tag == "home"){
     document.write('<li><a href="https://itdelatrisu.github.io/opsu/" target="_blank">opsu!</a> - unofficial open-source client for the rhythm game osu!, made in Java');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - rhythm, android</font>');
+    document.write('<font style="font-size:10px;"> - action, rhythm, android</font>');
     document.write('</li>');
 }
 
-if (tag == "plataformer" || tag == "casual" || tag == "home"){
+if (tag == "action" || tag == "plataformer" || tag == "casual" || tag == "home"){
     document.write('<li><a href="https://opensurge2d.org/" target="_blank">Open Surge</a> - 2D retro platformer inspired by Sonic games and a game creation system');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - plataformer, casual</font>');
+    document.write('<font style="font-size:10px;"> - action, plataformer, casual</font>');
     document.write('</li>');
 }
 
@@ -277,33 +277,33 @@ if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "racing" || tag == "casual" || tag == "home"){
+if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     document.write('<li><a href="https://codeberg.org/Captain4LK/what_the_road_brings/releases" target="_blank">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - casual, racing</font>');
+    document.write('<font style="font-size:10px;"> - action, casual, racing</font>');
     document.write('</li>');
 }
 
-if (tag == "simulation" || tag == "racing" || tag == "home"){
+if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic Racing Car Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - simulation, racing</font>');
+    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
     document.write('</li>');
 }
 
-if (tag == "simulation" || tag == "racing" || tag == "home"){
+if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('<li><a href="http://torcs.sourceforge.net/" target="_blank">TORCS</a> -  Realistic Racing Car Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - simulation, racing</font>');
+    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
     document.write('</li>');
 }
 
@@ -327,23 +327,23 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "android" || tag 
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "casual" || tag == "android" ||tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "casual" || tag == "android" ||tag == "home"){
     document.write('<li><a href="https://freedoom.github.io/" target="_blank">Freedoom</a> - Doom but open source, need <a href="https://zdoom.org/downloads" target="_blank">this</a>');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
     document.write('</li>');
 }
 
-if (tag == "shooter" || tag == "online_multiplayer" ||  tag == "sandbox" || tag == "home"){
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag == "sandbox" || tag == "home"){
     document.write('<li><a href="https://openspades.yvt.jp/" target="_blank">OpenSpades</a> - Voxel First person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
-    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, sandbox</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, sandbox</font>');
     document.write('</li>');
 }
 
