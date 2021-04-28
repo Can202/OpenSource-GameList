@@ -116,7 +116,7 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
 }
 
 if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
-    document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter');
+    document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter like CS 1.6');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
@@ -127,6 +127,16 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer
 
 if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://xonotic.org/" target="_blank">Xonotic</a> - free and fast arena multiplayer first person shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://unvanquished.net/" target="_blank">Unvanquished</a> - beautifull multiplayer first person shooter Alien vs Humans, attack or build');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
