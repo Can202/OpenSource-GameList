@@ -205,6 +205,16 @@ if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == 
     document.write('</li>');
 }
 
+if (tag == "card" || tag == "rpg" || tag == "strategy"  || tag == "online_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://dmlabs.itch.io/argentum-age" target="_blank">Argentum Age</a> - digital collectible card game with tactical elements and a focus on skill and positioning');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - card, rpg, strategy, online_multiplayer</font>');
+    document.write('</li>');
+}
+
 
 if (tag == "simulation" || tag == "home"){
     document.write('<li><a href="https://www.libre-trainsim.de/home" target="_blank">Libre TrainSim</a> - a Train Simulator');
