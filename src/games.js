@@ -38,17 +38,6 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
     document.write('</li>');
 }
-
-if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == "android" || tag == "home"){
-    document.write('<li><a href="https://www.wesnoth.org/" target = "_blank">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - strategy, rpg, online_multiplayer, android</font>');
-    document.write('</li>');
-}
-
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
     document.write('<li><a href="https://can202.github.io/arar/" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
@@ -185,6 +174,17 @@ if (tag == "rpg" || tag == "strategy" || tag == "home"){
     document.write('<font style="font-size:10px;"> - rpg, strategy</font>');
     document.write('</li>');
 }
+
+if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == "android" || tag == "home"){
+    document.write('<li><a href="https://www.wesnoth.org/" target = "_blank">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, rpg, online_multiplayer, android</font>');
+    document.write('</li>');
+}
+
 
 if (tag == "simulation" || tag == "home"){
     document.write('<li><a href="https://www.libre-trainsim.de/home" target="_blank">Libre TrainSim</a> - a Train Simulator');
