@@ -367,6 +367,17 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag =
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer"|| tag == "home"){
+    document.write('<li><a href="https://www.bzflag.org/" target="_blank">BZFlag</a> - multi-player 3D tank battle game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
+    document.write('</li>');
+}
+
+
 if (tag == "minigames" || tag == "education" || tag == "puzzle" || tag == "casual"  || tag == "strategy" || tag == "home"){
     document.write('<li><a href="http://devel.schroetersa.ch/blupi.org/planet.html" target="_blank">Planet Blupi</a> - strategy and adventure game to kids');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
