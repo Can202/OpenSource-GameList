@@ -127,6 +127,16 @@ if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer
 }
 
 if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://xonotic.org/" target="_blank">Xonotic</a> - free and fast arena multiplayer first person shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://www.urbanterror.info/home/" target="_blank">Urban Terror</a> - free multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
