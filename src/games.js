@@ -185,6 +185,16 @@ if (tag == "rpg" || tag == "strategy" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "rpg" || tag == "strategy"  || tag == "action" || tag == "home"){
+    document.write('<li><a href="https://flarerpg.org/" target="_blank">Flare</a> - 2D action RPG, game play can be likened to the games in the Diablo series');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rpg, strategy, action</font>');
+    document.write('</li>');
+}
+
 if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == "android" || tag == "home"){
     document.write('<li><a href="https://www.wesnoth.org/" target = "_blank">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
