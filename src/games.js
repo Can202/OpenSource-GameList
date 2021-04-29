@@ -39,7 +39,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
-    document.write('<li><a href="https://can202.itch.io/arar" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
+    document.write('<li><a href="https://can202.github.io/arar/" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
     document.write('</li>');
