@@ -409,4 +409,14 @@ if (tag == "puzzle" || tag == "casual"  || tag == "android" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "rpg" || tag == "home"){
+    document.write('<li><a href="https://www.gnu.org/software/freedink/" target="_blank">FreeDink</a> - UNMAINTAINED (still works), RPG made by GNU');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rpg</font>');
+    document.write('</li>');
+}
+
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
