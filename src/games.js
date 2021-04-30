@@ -419,4 +419,14 @@ if (tag == "rpg" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "card" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://sourceforge.net/projects/pokerth/files/pokerth/" target="_blank">PokerTH</a> - Free Texas Holdem Poker');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - card, online_multiplayer, local_multiplayer</font>');
+    document.write('</li>');
+}
+
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
