@@ -439,4 +439,14 @@ if (tag == "card" || tag == "online_multiplayer" || tag == "local_multiplayer" |
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://store.steampowered.com/app/629540/Alien_Arena_Warriors_Of_Mars/" target="_blank">Alien Arena</a> - the most beautiful game but the gameplay could be better, First Person Shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
+    document.write('</li>');
+}
+
 document.write('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
