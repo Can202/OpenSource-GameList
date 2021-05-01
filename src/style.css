@@ -64,3 +64,15 @@ footer p{
 .android{
     font-size: smaller;
 }
+
+
+.tocenter {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
