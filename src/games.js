@@ -135,6 +135,36 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://www.warsow.net/" target="_blank">Warsow</a> - futuristic cartoonish world fast-paced first-person shooter ');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
+    document.write('<li><a href="https://play0ad.com/" target="_blank">0 A.D.</a> - game of ancient warfare, like Age of Empires');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "rpg" || tag == "strategy" || tag == "home"){
+    document.write('<li><a href="https://github.com/ValyriaTear/ValyriaTear" target="_blank">Valyria Tear</a> - J-RPG (Based on the Hero of Allacrost engine) ');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rpg, strategy</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     document.write('<li><a href="https://unvanquished.net/" target="_blank">Unvanquished</a> - beautifull multiplayer first person shooter Alien vs Humans, attack or build');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
@@ -162,26 +192,6 @@ if (tag == "action" || tag == "shooter" || tag == "local_multiplayer" || tag == 
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<a href="https://play.google.com/store/apps/details?id=ws.openarena.sdl" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
     document.write('<font style="font-size:10px;"> - action, shooter, local_multiplayer, android</font>');
-    document.write('</li>');
-}
-
-if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
-    document.write('<li><a href="https://play0ad.com/" target="_blank">0 A.D.</a> - game of ancient warfare, like Age of Empires');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
-    document.write('</li>');
-}
-
-if (tag == "rpg" || tag == "strategy" || tag == "home"){
-    document.write('<li><a href="https://github.com/ValyriaTear/ValyriaTear" target="_blank">Valyria Tear</a> - J-RPG (Based on the Hero of Allacrost engine) ');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - rpg, strategy</font>');
     document.write('</li>');
 }
 
