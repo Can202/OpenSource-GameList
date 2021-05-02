@@ -509,6 +509,17 @@ if (tag == "puzzle" || tag == "casual"  || tag == "android" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "casual" || tag == "android" || tag == "plataformer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://pipoypipagames.itch.io/cows-revenge" target="_blank">Cow'+"'"+'s Revenge</a> - cow which now have the opportunity to rebel against livestock industry by freeing the encaged hens and killing butchers');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, android, plataformer</font>');
+    document.write('</li>');
+}
+
 if (tag == "rpg" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://www.gnu.org/software/freedink/" target="_blank">FreeDink</a> - UNMAINTAINED (still works), RPG made by GNU');
