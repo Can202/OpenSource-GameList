@@ -463,6 +463,17 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag =
     document.write('</li>');
 }
 
+if (tag == "casual" || tag == "android" || tag == "puzzle" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://github.com/ogarcia/opensudoku" target="_blank">Open Sudoku</a> - simple open-source android Sudoku game (Fdroid and PlayStore)');
+    //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, android, puzzle</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer"|| tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://www.bzflag.org/" target="_blank">BZFlag</a> - (capture the flag)multi-player 3D tank battle game, weird but fun');
