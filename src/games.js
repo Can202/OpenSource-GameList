@@ -385,6 +385,17 @@ if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "casual" || tag == "android" || tag == "puzzle" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://github.com/lexica/lexica" target="_blank">Lexica</a> - A word game where you have 3 minutes to find as many words as possible on a grid of random letters (Fdroid and PlayStore)');
+    //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, android, puzzle</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://captain4lk.itch.io/what-the-road-brings" target="_blank">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
