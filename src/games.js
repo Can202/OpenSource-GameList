@@ -317,6 +317,26 @@ if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
+    document.write('<li><a href="https://vdrift.net/" target="_blank">VDrift</a> -  Realistic driving simulation made with drift racing in mind');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
+    document.write('</li>');
+}
+
+if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
+    document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic car game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     document.write('<li><a href="https://captain4lk.itch.io/what-the-road-brings" target="_blank">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
@@ -327,15 +347,6 @@ if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
-    document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic Racing Car Simulator');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
-    document.write('</li>');
-}
 
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('<li><a href="http://torcs.sourceforge.net/" target="_blank">TORCS</a> -  Realistic Racing Car Simulator');
