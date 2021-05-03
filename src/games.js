@@ -577,9 +577,9 @@ if (tag == "casual" || tag == "android" || tag == "home"){
 
 
 if (tag == "home"){
-    document.write('<p> Total Games: '+ total +'</p>')
+    document.write('<p> Total games: '+ total +'</p>')
 } else{
-    document.write('<p> Total ' + tag + ' Games: '+ total +'</p>')
+    document.write('<p> Total ' + tag + ' games: '+ total +'</p>')
 }
 
 
