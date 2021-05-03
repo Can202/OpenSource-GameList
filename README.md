@@ -9,7 +9,7 @@ https://can202.github.io/OpenSource-GameList/
 
 3 options:
 
-1. this link -> https://can202.github.io/OpenSource-GameList/other/form/caveat
+1. this link -> https://can202.github.io/s/f
 
 or
 
