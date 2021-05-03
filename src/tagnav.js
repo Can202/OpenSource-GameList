@@ -14,7 +14,7 @@ document.write('<a href="/OpenSource-GameList/tag/on_device_multiplayer">multipl
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/action">action</a>');
 document.write(' - ');
-document.write('<a href="/OpenSource-GameList/tag/AAA">AAA</a>');
+document.write('<a href="/OpenSource-GameList/tag/stealth">stealth</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/rpg">rpg</a>');
 document.write(' - ');
