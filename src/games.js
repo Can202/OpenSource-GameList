@@ -207,6 +207,17 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://www.thedarkmod.com/main/" target="_blank">The Dark Mod</a> - AAA quality stealth first person game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "shooter" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="http://www.openarena.ws/download.php" target="_blank">OpenArena</a> - deathmatch first person shooter');
