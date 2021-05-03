@@ -13,14 +13,14 @@ if (tag == "sandbox" || tag == "local_multiplayer" || tag == "online_multiplayer
     document.write('</li>');
 }
 
-if (tag == "action" || tag == "rhythm" || tag == "on_device_multiplayer" || tag == "home"){
+if (tag == "action" || tag == "stealth" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.stepmania.com/" target = "_blank">Stepmania</a> - dance and rhythm game like Dance Dance Revolution');
+    document.write('<li><a href="https://www.thedarkmod.com/main/" target="_blank">The Dark Mod</a> - AAA quality stealth first person game');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, rhythm, on_device_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, stealth</font>');
     document.write('</li>');
 }
 
@@ -45,22 +45,56 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
     document.write('</li>');
 }
+
+if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://play0ad.com/" target="_blank">0 A.D.</a> - game of ancient warfare, like Age of Empires');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "action" || tag == "rhythm" || tag == "on_device_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://www.stepmania.com/" target = "_blank">Stepmania</a> - dance and rhythm game like Dance Dance Revolution');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, rhythm, on_device_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter like CS 1.6');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://xonotic.org/" target="_blank">Xonotic</a> - free and fast arena multiplayer first person shooter');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
+    document.write('</li>');
+}
+
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/arar/" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
-    document.write('</li>');
-}
-
-if (tag == "action" || tag == "stealth" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://www.thedarkmod.com/main/" target="_blank">The Dark Mod</a> - AAA quality stealth first person game');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, stealth</font>');
     document.write('</li>');
 }
 
@@ -141,28 +175,6 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
     document.write('</li>');
 }
 
-if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://assault.cubers.net/" target="_blank">AssaultCube</a> - free multiplayer first person shooter like CS 1.6');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
-    document.write('</li>');
-}
-
-if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://xonotic.org/" target="_blank">Xonotic</a> - free and fast arena multiplayer first person shooter');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, local_multiplayer</font>');
-    document.write('</li>');
-}
-
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://www.warsow.net/" target="_blank">Warsow</a> - futuristic cartoonish world fast-paced first-person shooter ');
@@ -171,17 +183,6 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
-    document.write('</li>');
-}
-
-if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://play0ad.com/" target="_blank">0 A.D.</a> - game of ancient warfare, like Age of Empires');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer</font>');
     document.write('</li>');
 }
 
