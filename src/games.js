@@ -81,7 +81,7 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
 
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://xonotic.org/" target="_blank">Xonotic</a> - free and fast arena multiplayer first person shooter');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Xonotic">Xonotic</a> - free and fast arena multiplayer first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
