@@ -488,11 +488,11 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "android" || tag 
 
 if (tag == "action" || tag == "shooter" || tag == "casual" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://freedoom.github.io/" target="_blank">Freedoom</a> - Doom but open source, need <a href="https://zdoom.org/downloads" target="_blank">this</a>');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Freedoom/">Freedoom</a> - Doom but open source, need <a href="https://zdoom.org/downloads" target="_blank">this</a>');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
     document.write('</li>');
 }
