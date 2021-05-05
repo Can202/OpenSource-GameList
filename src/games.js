@@ -332,12 +332,12 @@ if (tag == "simulation" || tag == "home"){
 
 if (tag == "minigames" || tag == "education" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://gcompris.net/" target="_blank">GCompris</a> - set of high-quality educational programs containing a large number of activities for children between the ages of 2 and 10');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/GCompris/">GCompris</a> - set of high-quality educational programs containing a large number of activities for children between the ages of 2 and 10');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - minigames, android</font>');
+    document.write('<font style="font-size:10px;"> - minigames, education, android</font>');
     document.write('</li>');
 }
 
