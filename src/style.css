@@ -76,3 +76,7 @@ footer p{
     align-items: flex-start;
     justify-content: center;
 }
+
+nav p {
+    font-size: 20px;
+}
