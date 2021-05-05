@@ -59,7 +59,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
 
 if (tag == "action" || tag == "rhythm" || tag == "on_device_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.stepmania.com/" target = "_blank">Stepmania</a> - dance and rhythm game like Dance Dance Revolution');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Stepmania">Stepmania</a> - dance and rhythm game like Dance Dance Revolution');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
