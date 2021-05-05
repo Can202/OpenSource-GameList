@@ -155,7 +155,7 @@ if (tag == "minigames" || tag == "on_device_multiplayer" || tag == "home"){
 
 if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://store.steampowered.com/app/1536610/OpenTTD/" target="_blank">OpenTTD</a> - simulation game based upon Transport Tycoon Deluxe');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenTTD">OpenTTD</a> - simulation game based upon Transport Tycoon Deluxe');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
