@@ -133,7 +133,7 @@ if (tag == "plataformer" || tag == "casual" || tag == "android" || tag == "home"
 
 if (tag == "action" || tag == "racing" || tag == "on_device_multiplayer" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://supertuxkart.net/" target="_blank">SuperTuxKart</a> - 3D arcade racer with a variety characters, tracks, and modes to play');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/SuperTuxKart">SuperTuxKart</a> - 3D arcade racer with a variety characters, tracks, and modes to play');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
