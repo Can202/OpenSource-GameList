@@ -4,7 +4,7 @@ var total = 0
 
 if (tag == "sandbox" || tag == "local_multiplayer" || tag == "online_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.minetest.net/" target = "_blank">Minetest</a> - voxel game engine like Minecraft');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Minetest">Minetest</a> - voxel game engine like Minecraft');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
