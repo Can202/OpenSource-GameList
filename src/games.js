@@ -493,7 +493,7 @@ if (tag == "action" || tag == "shooter" || tag == "casual" || tag == "android" |
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - action, shooter, casual, android</font>');
     document.write('</li>');
 }
 
