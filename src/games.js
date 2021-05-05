@@ -120,14 +120,14 @@ if (tag == "simulation" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "plataformer" || tag == "android" || tag == "home"){
+if (tag == "plataformer" || tag == "casual" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.supertux.org/" target="_blank">SuperTux</a> - 2D jump and run sidescroller game in a style similar to the original Super Mario games');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/SuperTux">SuperTux</a> - 2D jump and run sidescroller game in a style similar to the original Super Mario games');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - plataformer, android</font>');
+    document.write('<font style="font-size:10px;"> - plataformer, casual, android</font>');
     document.write('</li>');
 }
 
