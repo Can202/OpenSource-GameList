@@ -92,7 +92,7 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
 
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://can202.github.io/arar/" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Arar" target="_blank">Arar</a> - two players in one device, the winner is that manage to insert more rings');
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
     document.write('</li>');
