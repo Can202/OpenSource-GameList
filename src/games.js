@@ -159,7 +159,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplaye
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<a href="https://play.google.com/store/apps/details?id=org.openttd.sdl&hl=en_US&gl=US" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - strategy, online_multiplayer, local_multiplayer, android</font>');
     document.write('</li>');
 }
@@ -254,11 +254,11 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
 
 if (tag == "action" || tag == "shooter" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="http://www.openarena.ws/download.php" target="_blank">OpenArena</a> - deathmatch first person shooter');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenArena">OpenArena</a> - deathmatch first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<a href="https://play.google.com/store/apps/details?id=ws.openarena.sdl" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - action, shooter, local_multiplayer, android</font>');
     document.write('</li>');
 }
