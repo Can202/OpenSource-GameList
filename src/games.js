@@ -454,7 +454,7 @@ if (tag == "casual" || tag == "android" || tag == "puzzle" || tag == "home"){
 
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://captain4lk.itch.io/what-the-road-brings" target="_blank">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/what-the-road-brings" target="_blank">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
