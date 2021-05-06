@@ -521,7 +521,7 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag =
 
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ExtremeTuxRacer"> - High speed arctic racing game based on Tux Racer');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ExtremeTuxRacer">Extreme Tux Racer</a> - High speed arctic racing game based on Tux Racer');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
