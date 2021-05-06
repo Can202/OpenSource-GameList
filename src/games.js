@@ -26,7 +26,7 @@ if (tag == "action" || tag == "stealth" || tag == "home"){
 
 if (tag == "action" || tag == "rhythm" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://store.steampowered.com/app/980610/Quaver/" target = "_blank">Quaver</a> - competitive rhythm game like Osu Mania');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Quaver/">Quaver</a> - competitive rhythm game like Osu Mania');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
