@@ -144,7 +144,7 @@ if (tag == "action" || tag == "racing" || tag == "on_device_multiplayer" || tag 
 
 if (tag == "minigames" || tag == "on_device_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://supertux.party/" target="_blank">SuperTuxParty</a> - Minigames to play with friends on a virtual board like Mario Party');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/SuperTuxParty">Super Tux Party</a> - Minigames to play with friends on a virtual board like Mario Party');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
