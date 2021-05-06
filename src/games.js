@@ -166,7 +166,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplaye
 
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Red_Eclipse_2/">Red Eclipse 2</a> - fast paced, agile, easily accessible first person shooter');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/RedEclipse2/">Red Eclipse 2</a> - fast paced, agile, easily accessible first person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
