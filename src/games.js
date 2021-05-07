@@ -37,7 +37,7 @@ if (tag == "action" || tag == "rhythm" || tag == "online_multiplayer" || tag == 
 
 if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://unknown-horizons.org/" target = "_blank">Unknown Horizons</a> - 2D realtime strategy simulation with an emphasis on economy and city building');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/UnknownHorizons">Unknown Horizons</a> - 2D realtime strategy simulation with an emphasis on economy and city building');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
