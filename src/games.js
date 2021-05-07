@@ -111,7 +111,7 @@ if (tag == "sandbox" || tag == "simulation" || tag == "online_multiplayer" || ta
 
 if (tag == "simulation" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.flightgear.org/" target="_blank">FlightGear</a> - a sophisticated and professional Flight Simulator');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/FlightGear">FlightGear</a> - a sophisticated and professional Flight Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
