@@ -100,7 +100,7 @@ if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag
 
 if (tag == "sandbox" || tag == "simulation" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.rigsofrods.org/" target = "_blank">Rigs of Rods</a> - vehicle simulator that uses soft-body physics to simulate the motion destruction and deformation of vehicles');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/RigsOfRods">Rigs of Rods</a> - vehicle simulator that uses soft-body physics to simulate the motion destruction and deformation of vehicles');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
