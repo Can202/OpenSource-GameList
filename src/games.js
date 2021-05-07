@@ -48,7 +48,7 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
 
 if (tag == "strategy" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://play0ad.com/" target="_blank">0 A.D.</a> - game of ancient warfare, like Age of Empires');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/0ad">0 A.D.</a> - game of ancient warfare, like Age of Empires');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
