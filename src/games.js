@@ -309,7 +309,7 @@ if (tag == "rpg" || tag == "action" || tag == "home"){
 
 if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.wesnoth.org/" target = "_blank">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/BattleForWesnoth">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
