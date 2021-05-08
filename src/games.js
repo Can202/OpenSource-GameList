@@ -186,6 +186,17 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
     document.write('</li>');
 }
 
+if (tag == "rpg" || tag == "strategy" || tag == "android" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ShatteredPixelDungeon">Shattered Pixel Dungeon</a> - Roguelike RPG, with pixel art graphics and lots of variety and replayability ');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, rpg, android</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://www.warsow.net/" target="_blank">Warsow</a> - futuristic cartoonish world fast-paced first-person shooter ');
