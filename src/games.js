@@ -410,7 +410,7 @@ if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
 
 if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://neverball.org/screenshots.php" target="_blank">Neverball</a> -  Tilt the floor to roll a ball through an obstacle course before time runs out');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Neverball">Neverball</a> -  Tilt the floor to roll a ball through an obstacle course before time runs out');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
@@ -421,7 +421,7 @@ if (tag == "casual" || tag == "puzzle"  || tag == "home"){
 
 if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="http://uppgarn.com/nuncabola/" target="_blank">Nuncabola</a> -  Neverball but rewritten with Java');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Nuncabola">Nuncabola</a> -  Neverball but rewritten with Java');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
