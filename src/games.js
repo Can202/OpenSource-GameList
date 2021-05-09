@@ -396,6 +396,17 @@ if (tag == "strategy" || tag == "sandbox" || tag == "online_multiplayer" || tag 
     document.write('</li>');
 }
 
+if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "casual" || tag == "on_device_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Hedgewars">Hedgewars</a> - Funny turn-based artillery game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer, local_multiplayer, on_device_multiplayer, casual</font>');
+    document.write('</li>');
+}
+
 
 if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
