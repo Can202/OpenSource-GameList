@@ -90,6 +90,39 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
     document.write('</li>');
 }
 
+if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == "android" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/BattleForWesnoth">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, rpg, online_multiplayer, android</font>');
+    document.write('</li>');
+}
+
+if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/StuntRally">Stunt Rally</a> - (beautiful graphics) Realistic racing game with rally style of driving, mostly on gravel');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
+    document.write('</li>');
+}
+
+if (tag == "card" || tag == "rpg" || tag == "strategy"  || tag == "online_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ArgentumAge">Argentum Age</a> - digital collectible card game with tactical elements and a focus on skill and positioning');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - card, rpg, strategy, online_multiplayer</font>');
+    document.write('</li>');
+}
+
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Arar"<>Arar</a> - two players in one device, the winner is that manage to insert more rings');
@@ -293,39 +326,6 @@ if (tag == "rpg" || tag == "action" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - rpg, action</font>');
-    document.write('</li>');
-}
-
-if (tag == "strategy" || tag == "rpg" || tag == "online_multiplayer"  || tag == "android" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/BattleForWesnoth">Battle for Wesnoth</a> - turn-based strategy game with a high fantasy theme. It have singleplayer and online/hotseat multiplayer combat');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - strategy, rpg, online_multiplayer, android</font>');
-    document.write('</li>');
-}
-
-if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/StuntRally">Stunt Rally</a> - (beautiful graphics) Realistic racing game with rally style of driving, mostly on gravel');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
-    document.write('</li>');
-}
-
-if (tag == "card" || tag == "rpg" || tag == "strategy"  || tag == "online_multiplayer" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ArgentumAge">Argentum Age</a> - digital collectible card game with tactical elements and a focus on skill and positioning');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - card, rpg, strategy, online_multiplayer</font>');
     document.write('</li>');
 }
 
