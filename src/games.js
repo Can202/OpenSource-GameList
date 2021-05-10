@@ -332,7 +332,7 @@ if (tag == "rpg" || tag == "action" || tag == "home"){
 
 if (tag == "simulation" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.libre-trainsim.de/home" target="_blank">Libre TrainSim</a> - a Train Simulator');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/LibreTrainSim">Libre TrainSim</a> - a Train Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
