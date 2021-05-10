@@ -419,6 +419,17 @@ if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "casual" || tag == "plataformer" || tag == "racing" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/XMoto">XMoto</a> -  X-Moto is an exciting 2D motocross platformer, where physics plays a huge role in the game.');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, plataformer, racing</font>');
+    document.write('</li>');
+}
+
 if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Neverball">Neverball</a> -  Tilt the floor to roll a ball through an obstacle course before time runs out');
