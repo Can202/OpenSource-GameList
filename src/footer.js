@@ -4,6 +4,6 @@ document.write(''+
 '<p><a href="https://github.com/Can202/OpenSource-GameList" target="_blank">Repository</a> - '+
 '<a href="https://github.com/Can202" target="_blank">Can202(me)</a> - '+
 '<a href="https://can202.github.io/OpenSource-GameList/other/blog">Blog</a> - '+
-'<a href="https://can202.github.io/OpenSource-GameList/other/comments/caveat">Comment section</a></p>'+
+'<a href="https://can202.github.io/OpenSource-GameList/other/Discord/go">Discord</a></p>'+
 ''
 );
