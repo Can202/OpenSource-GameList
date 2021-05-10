@@ -487,7 +487,7 @@ if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
 
 if (tag == "casual" || tag == "android" || tag == "puzzle" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://github.com/lexica/lexica" target="_blank">Lexica</a> - A word game where you have 3 minutes to find as many words as possible on a grid of random letters (Fdroid and PlayStore)');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Lexica">Lexica</a> - A word game where you have 3 minutes to find as many words as possible on a grid of random letters');
     //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
