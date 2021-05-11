@@ -519,6 +519,18 @@ if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "metroidvania" || tag == "plataformer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/SealedBite">Sealed Bite</a> - a open metroidvania made in Godot (Game off 2019 jam)');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - action, metroidvania, plataformer</font>');
+    document.write('</li>');
+}
+
+
 if (tag == "casual" || tag == "on_device_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://github.com/Rapiz1/DungeonRush" target="_blank">DungeonRush</a> - Casual game inspired by Snake');
