@@ -454,10 +454,10 @@ if (tag == "casual" || tag == "puzzle"  || tag == "home"){
 
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://vdrift.net/" target="_blank">VDrift</a> -  Realistic driving simulation made with drift racing in mind');
+    document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic car game');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
     document.write('</li>');
@@ -465,10 +465,10 @@ if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
 
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic car game');
+    document.write('<li><a href="https://vdrift.net/" target="_blank">VDrift</a> -  Realistic driving simulation made with drift racing in mind');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - action, simulation, racing</font>');
     document.write('</li>');
@@ -666,7 +666,7 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" || tag ==
 
 if (tag == "casual" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://f-droid.org/packages/org.pipoypipagames.towerjumper/" target="_blank">TowerJumper</a> - android game in which you move a jumping ball and try to reach the end of a tower avoiding the obstacles');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/TowerJumper">TowerJumper</a> - android game in which you move a jumping ball and try to reach the end of a tower avoiding the obstacles');
     //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
