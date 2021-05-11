@@ -454,7 +454,7 @@ if (tag == "casual" || tag == "puzzle"  || tag == "home"){
 
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://trigger-rally.sourceforge.io/" target="_blank">Trigger Rally</a> -  Realistic car game');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/TriggerRally">Trigger Rally</a> -  Rally car game');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
