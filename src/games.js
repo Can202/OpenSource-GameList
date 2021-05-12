@@ -496,6 +496,17 @@ if (tag == "casual" || tag == "android" || tag == "puzzle" || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "casual" || tag == "strategy" || tag == "puzzle" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Pingus">Pingus</a> - A puzzle game where the player has to guide a group of penguins to safety');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, strategy, puzzle</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/what-the-road-brings">What the road brings</a> -  Casual racing game, depeveloment to a jam, (can run with Wine)');
