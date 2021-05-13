@@ -599,7 +599,7 @@ if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
 
 if (tag == "casual" || tag == "android" || tag == "puzzle" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://github.com/ogarcia/opensudoku" target="_blank">Open Sudoku</a> - simple open-source android Sudoku game (Fdroid and PlayStore)');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenSudoku">Open Sudoku</a> - simple open-source android Sudoku game ');
     //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
