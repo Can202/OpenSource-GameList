@@ -320,7 +320,7 @@ if (tag == "rpg" || tag == "action" || tag == "home"){
 
 if (tag == "rpg" || tag == "action" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.freedroid.org/" target="_blank">FreeDroidRPG</a> - real time combat system with melee and ranged weapons, fairly similar to the proprietary game Diablo.');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/FreedroidRPG">FreedroidRPG</a> - real time combat system with melee and ranged weapons, fairly similar to the proprietary game Diablo.');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
