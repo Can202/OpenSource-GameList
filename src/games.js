@@ -123,14 +123,6 @@ if (tag == "card" || tag == "rpg" || tag == "strategy"  || tag == "online_multip
     document.write('</li>');
 }
 
-if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Arar"<>Arar</a> - two players in one device, the winner is that manage to insert more rings');
-    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
-    document.write('</li>');
-}
-
 if (tag == "sandbox" || tag == "simulation" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/RigsOfRods">Rigs of Rods</a> - vehicle simulator that uses soft-body physics to simulate the motion destruction and deformation of vehicles');
@@ -183,6 +175,25 @@ if (tag == "minigames" || tag == "on_device_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - minigames, on_device_multiplayer</font>');
+    document.write('</li>');
+}
+
+if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenTicTacToeX"<>OpenTicTacToeX</a> - casual and simple Tic Tac Toe Game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
+    document.write('</li>');
+}
+
+if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Arar"<>Arar</a> - two players in one device, the winner is that manage to insert more rings');
+    document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, on_device_multiplayer, android</font>');
     document.write('</li>');
 }
 
