@@ -385,17 +385,6 @@ if (tag == "action" || tag == "plataformer" || tag == "casual" || tag == "home")
     document.write('</li>');
 }
 
-if (tag == "casual" || tag == "puzzle" || tag == "plataformer" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Mari0">Mari0</a> - famous Mario game with Portal gun mechanics. And open source');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - casual, puzzle, plataformer</font>');
-    document.write('</li>');
-}
-
 if (tag == "strategy" || tag == "sandbox" || tag == "online_multiplayer" || tag == "local_multiplayer"  || tag == "android" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://mindustrygame.github.io/" target="_blank">Mindustry</a> - sandbox tower-defense game');
@@ -517,6 +506,18 @@ if (tag == "casual" || tag == "strategy" || tag == "puzzle" || tag == "home"){
     document.write('<font style="font-size:10px;"> - casual, strategy, puzzle</font>');
     document.write('</li>');
 }
+
+if (tag == "casual" || tag == "puzzle" || tag == "plataformer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Mari0">Mari0</a> - famous Mario game with Portal gun mechanics. And open source');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - casual, puzzle, plataformer</font>');
+    document.write('</li>');
+}
+
 
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     total = total + 1;
