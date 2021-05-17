@@ -197,6 +197,17 @@ if (tag == "casual" || tag == "on_device_multiplayer" || tag == "android" || tag
     document.write('</li>');
 }
 
+if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/MegaGlest">MegaGlest</a> - 3D real-time strategy (RTS) game');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, online_multiplayer, local_multiplayer</font>');
+    document.write('</li>');
+}
+
 if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "android" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenTTD">OpenTTD</a> - simulation game based upon Transport Tycoon Deluxe');
