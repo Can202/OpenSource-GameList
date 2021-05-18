@@ -30,6 +30,8 @@ document.write('<a href="/OpenSource-GameList/tag/strategy">strategy</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/metroidvania">metroidvania</a>');
 document.write(' - ');
+document.write('<a href="/OpenSource-GameList/tag/sports">sports</a>');
+document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/simulation">simulation</a>');
 document.write(' - ');
 document.write('<a href="/OpenSource-GameList/tag/puzzle">puzzle</a>');
