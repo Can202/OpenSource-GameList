@@ -351,14 +351,14 @@ if (tag == "rpg" || tag == "action" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "casual" || tag == "action" || tag == "puzzle" || tag == "home"){
+if (tag == "casual" || tag == "action" || tag == "on_device_multiplayer" || tag == "puzzle" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Nullpomino">Nullpomino</a> - Tetris action puzzle game');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - puzzle, action, casual</font>');
+    document.write('<font style="font-size:10px;"> - puzzle, action, on_device_multiplayer, casual</font>');
     document.write('</li>');
 }
 
