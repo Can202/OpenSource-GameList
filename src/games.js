@@ -586,7 +586,6 @@ if (tag == "casual" || tag == "on_device_multiplayer" || tag == "puzzle" || tag 
     document.write('</li>');
 }
 
-
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="http://torcs.sourceforge.net/" target="_blank">TORCS</a> -  Realistic Racing Car Simulator');
@@ -653,6 +652,18 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag =
     document.write('<font style="font-size:10px;"> - action, shooter, online_multiplayer, sandbox</font>');
     document.write('</li>');
 }
+
+if (tag == "racing" || tag == "on_device_multiplayer" || tag == "action" || tag == "casual" || tag == "android" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/PixelWheels">PixelWheels</a> - top-down racing game ');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - racing, on_device_multiplayer, action, casual, android</font>');
+    document.write('</li>');
+}
+
 
 if (tag == "action" || tag == "racing" || tag == "casual" || tag == "home"){
     total = total + 1;
