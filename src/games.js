@@ -713,7 +713,7 @@ if (tag == "minigames" || tag == "education" || tag == "puzzle" || tag == "casua
 
 if (tag == "puzzle" || tag == "casual"  || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://play.google.com/store/apps/details?id=com.hyperparticle.nodulus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Nodulus</a> - casual puzzle game for android and ios');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Nodulus">Nodulus</a> - casual puzzle game for android and ios');
     //document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     //document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
