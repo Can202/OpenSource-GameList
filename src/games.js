@@ -588,7 +588,7 @@ if (tag == "casual" || tag == "on_device_multiplayer" || tag == "puzzle" || tag 
 
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="http://torcs.sourceforge.net/" target="_blank">TORCS</a> -  Realistic Racing Car Simulator');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/TORCS">TORCS</a> -  Realistic Racing Car Simulator');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
