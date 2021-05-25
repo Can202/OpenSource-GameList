@@ -654,7 +654,7 @@ if (tag == "action" || tag == "shooter" || tag == "casual" || tag == "android" |
 
 if (tag == "action" || tag == "shooter" || tag == "online_multiplayer" ||  tag == "sandbox" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://openspades.yvt.jp/" target="_blank">OpenSpades</a> - Voxel First person shooter');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenSpades">OpenSpades</a> - Voxel First person shooter');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
