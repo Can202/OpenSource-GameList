@@ -721,7 +721,7 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer"|| tag == 
 
 if (tag == "minigames" || tag == "education" || tag == "puzzle" || tag == "casual"  || tag == "strategy" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="http://devel.schroetersa.ch/blupi.org/planet.html" target="_blank">Planet Blupi</a> - strategy and adventure game to kids');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/PlanetBlupi">Planet Blupi</a> - strategy and adventure game to kids');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
