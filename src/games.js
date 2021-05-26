@@ -719,7 +719,6 @@ if (tag == "action" || tag == "shooter" || tag == "online_multiplayer"|| tag == 
     document.write('</li>');
 }
 
-
 if (tag == "minigames" || tag == "education" || tag == "puzzle" || tag == "casual"  || tag == "strategy" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="http://devel.schroetersa.ch/blupi.org/planet.html" target="_blank">Planet Blupi</a> - strategy and adventure game to kids');
@@ -740,6 +739,17 @@ if (tag == "puzzle" || tag == "casual"  || tag == "android" || tag == "home"){
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - puzzle, casual, android</font>');
+    document.write('</li>');
+}
+
+if (tag == "action" || tag == "online_multiplayer" || tag == "local_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ArmagetronAdvanced">Armagetron Advanced</a> - Multiplayer Tron Clone in 3d');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<a href="https://play.google.com/store/apps/details?id=net.nullsum.freedoom" target="_blank"><img src="/OpenSource-GameList/src/images/android.png" width="15px" /><font style="font-size:10px;">android here</font></a>'); //android
+    document.write('<font style="font-size:10px;"> - action, online_multiplayer, local_multiplayer</font>');
     document.write('</li>');
 }
 
