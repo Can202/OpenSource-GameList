@@ -430,7 +430,7 @@ if (tag == "minigames" || tag == "education" || tag == "android" || tag == "home
 
 if (tag == "action" || tag == "rhythm" || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://itdelatrisu.github.io/opsu/" target="_blank">opsu!</a> - unofficial open-source client for the rhythm game osu!, made in Java');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/opsu">opsu!</a> - unofficial open-source client for the rhythm game osu!, made in Java');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
