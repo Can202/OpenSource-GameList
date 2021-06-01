@@ -452,7 +452,7 @@ if (tag == "action" || tag == "plataformer" || tag == "casual" || tag == "home")
 
 if (tag == "strategy" || tag == "sandbox" || tag == "online_multiplayer" || tag == "local_multiplayer"  || tag == "android" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://mindustrygame.github.io/" target="_blank">Mindustry</a> - sandbox tower-defense game');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Mindustry">Mindustry</a> - sandbox tower-defense game');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
