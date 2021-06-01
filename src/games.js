@@ -112,14 +112,25 @@ if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     document.write('</li>');
 }
 
-if (tag == "card" || tag == "rpg" || tag == "strategy"  || tag == "online_multiplayer" || tag == "home"){
+if (tag == "rpg" || tag == "strategy" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ValyriaTear">Valyria Tear</a> - J-RPG (Based on the Hero of Allacrost engine) ');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - rpg, strategy</font>');
+    document.write('</li>');
+}
+
+if (tag == "card" || tag == "strategy"  || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ArgentumAge">Argentum Age</a> - digital collectible card game with tactical elements and a focus on skill and positioning');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - card, rpg, strategy, online_multiplayer</font>');
+    document.write('<font style="font-size:10px;"> - card, strategy, online_multiplayer</font>');
     document.write('</li>');
 }
 
@@ -248,17 +259,6 @@ if (tag == "rpg" || tag == "strategy" || tag == "android" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - strategy, rpg, android</font>');
-    document.write('</li>');
-}
-
-if (tag == "rpg" || tag == "strategy" || tag == "home"){
-    total = total + 1;
-    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/ValyriaTear">Valyria Tear</a> - J-RPG (Based on the Hero of Allacrost engine) ');
-    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
-    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
-    //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
-    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
-    document.write('<font style="font-size:10px;"> - rpg, strategy</font>');
     document.write('</li>');
 }
 
