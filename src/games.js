@@ -775,7 +775,7 @@ if (tag == "casual" || tag == "android" || tag == "plataformer" || tag == "home"
 
 if (tag == "rpg" || tag == "home"){
     total = total + 1;
-    document.write('<li><a href="https://www.gnu.org/software/freedink/" target="_blank">FreeDink</a> - UNMAINTAINED (still works), RPG made by GNU');
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/FreeDink">FreeDink</a> - UNMAINTAINED (still works), RPG made by GNU');
     document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
     document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
     //document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
