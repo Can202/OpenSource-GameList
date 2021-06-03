@@ -472,7 +472,6 @@ if (tag == "strategy" || tag == "online_multiplayer" || tag == "local_multiplaye
     document.write('</li>');
 }
 
-
 if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/OpenClonk">OpenClonk</a> - free multiplayer action game. The game is mainly about mining, settling and fast-paced melees, also is a 2D Game Engine');
@@ -481,6 +480,16 @@ if (tag == "sandbox" || tag == "online_multiplayer" || tag == "home"){
     document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
     //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
     document.write('<font style="font-size:10px;"> - sandbox, online_multiplayer</font>');
+    document.write('</li>');
+}
+if (tag == "strategy" || tag == "space" || tag == "local_multiplayer" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/FreeOrion">FreeOrion</a> - turn-based space empire and galactic conquest (4X) computer game being');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - strategy, space, local_multiplayer</font>');
     document.write('</li>');
 }
 
