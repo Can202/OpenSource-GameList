@@ -12,6 +12,10 @@ function clickPress(event) {
 		event.preventDefault() = nothing();
 	}
 }
+
+document.write('<style> .searchbutc { float:right; }</style>')
+
+
 document.write('<article class="searchbutc">');
 document.write('<form>');
 document.write('<input id="search" onkeypress="clickPress(event)" >');
