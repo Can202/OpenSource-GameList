@@ -80,3 +80,7 @@ footer p{
 nav p {
     font-size: 15px;
 }
+
+.searchbutc {
+    float:right;
+}
