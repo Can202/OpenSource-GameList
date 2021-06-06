@@ -526,6 +526,17 @@ if (tag == "casual" || tag == "puzzle"  || tag == "home"){
     document.write('</li>');
 }
 
+if (tag == "action" || tag == "space" || tag == "strategy" || tag == "home"){
+    total = total + 1;
+    document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/Naev">Naev</a> - game about space exploration, trade and combat.');
+    document.write('<img src="/OpenSource-GameList/src/images/windows.png" width="15px" />'); //windows
+    document.write('<img src="/OpenSource-GameList/src/images/linux.png" width="15px" />'); //linux
+    document.write('<img src="/OpenSource-GameList/src/images/mac.png" width="15px" />'); //mac
+    //document.write('<img src="/OpenSource-GameList/src/images/android.png" width="15px" />'); //android
+    document.write('<font style="font-size:10px;"> - space, action, strategy</font>');
+    document.write('</li>');
+}
+
 if (tag == "action" || tag == "simulation" || tag == "racing" || tag == "home"){
     total = total + 1;
     document.write('<li><a href="https://can202.github.io/OpenSource-GameList/games/TriggerRally">Trigger Rally</a> -  Rally car game');
