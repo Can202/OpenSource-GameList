@@ -6,6 +6,15 @@ body {
     background-color: #82F9B4;
 }
 
+h1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+p {
+    padding-top: 10px;
+}
+
 header {
     line-height: 90px;
     width: 100%;
