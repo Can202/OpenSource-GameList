@@ -24,6 +24,8 @@ header p{
     font-family: monospace;
 }
 nav {
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #98fac1;
