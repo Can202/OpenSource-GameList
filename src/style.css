@@ -93,3 +93,31 @@ nav p {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 480px){
+    header p{
+        font-size:1rem;
+    }
+    footer p{
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: small;
+    }
+    .center {
+        display: grid;
+    }
+    /*
+    .center a img {
+        width: 40px;
+    }*/
+}
+@media screen and (max-width: 323px){
+    footer p{
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: small;
+        
+    }
+}
