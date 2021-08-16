@@ -107,10 +107,9 @@ nav p {
     .center {
         display: grid;
     }
-    /*
-    .center a img {
-        width: 40px;
-    }*/
+    .firstimg p a img{
+        width: 3rem;
+    }
 }
 @media screen and (max-width: 323px){
     footer p{
@@ -119,5 +118,9 @@ nav p {
         padding-right: 2px;
         font-size: small;
         
+    }
+    
+    .firstimg p a img{
+        width: 2rem;
     }
 }
